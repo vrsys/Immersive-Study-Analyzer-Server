@@ -1,0 +1,13 @@
+name: Execution Test
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - run: pip install -r requirements.txt  # install requirements to enable GitHub run tests
+      - run:  python rest_api.py
