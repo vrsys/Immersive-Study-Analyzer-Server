@@ -9,7 +9,7 @@ Setup:
 ========================
 **Step 1**: Clone the repository
 ```
-git clone https://github.com/AnBenLa/UnityRecordingRestAPI
+git clone https://github.com/vrsys/Immersive-Study-Analyzer-Server
 ```
 
 **Step 2**: Install dependencies (optional: using a conda environment)
