@@ -3,7 +3,7 @@
 # Immersive Study Analyzer Server
 
 This rest server can be used to store and retrieve data such as recordings and annotations.
-It was designed for use with the Immersive Study Analyzer (ISA), which Unity implementation can be found [here](https://github.com/vrsys/Immersive-Study-Analyzer-Server).
+It was designed for use with the Immersive Study Analyzer (ISA), which Unity implementation can be found [here](https://github.com/vrsys/Immersive-Study-Analyzer).
 
 Setup:
 ========================
